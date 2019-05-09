@@ -1,0 +1,36 @@
+#wp_form_login{
+                width: 400px;
+                margin: 30px auto;
+                background: #f5f5f5;
+                padding: 30px 20px;
+            }
+            #form_login label{
+                display: block;
+                margin-bottom: 5px;
+                margin-top: 15px;
+            }
+            #form_login input[type="text"], #form_login input[type="password"]{
+                border: 1px solid #d2cfcf;
+                padding: 8px 10px;
+                width: 100%;
+            }
+            #form_login input[type="submit"] {
+                border: none;
+                background: #0097cc;
+                display: block;
+                padding: 11px 10px;
+                margin-top: 30px;
+                width: 100%;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: bold;
+                cursor: pointer;
+
+            }
+            #wp_form_login h1{
+                font-size: 16px;
+                text-align: center;
+            }
+            p.error {
+                text-transform: uppercase;
+            }
